@@ -22,7 +22,7 @@ export default function About() {
           <h2 className="text-2xl font-bold text-green-700 mb-2">Our Church Verse</h2>
           <blockquote className="italic border-l-4 border-green-400 pl-4 text-gray-700 mb-2">
             1 Timothy 2:5-6 ESV<br />
-            &ldquo;For there is one God, and there is one mediator between God and men, the man Christ Jesus, who gave himself as a ransom for all, which is the testimony given at the proper time.&rdquo;
+            &quot;For there is one God, and there is one mediator between God and men, the man Christ Jesus, who gave himself as a ransom for all, which is the testimony given at the proper time.&quot;
           </blockquote>
         </section>
 
