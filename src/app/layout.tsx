@@ -27,6 +27,19 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <nav className="w-full flex flex-col sm:flex-row sm:justify-between items-center py-6 px-4 bg-gradient-to-b from-green-500 to-green-400 shadow-md mb-8">
+          <div className="flex items-center gap-4 mb-4 sm:mb-0">
+            <img src="/logo.png" alt="Link Ph Logo" className="h-10 w-10 rounded-full bg-white p-1 shadow" />
+            <span className="text-white text-2xl font-bold tracking-wide">Link Ph</span>
+          </div>
+          <ul className="flex flex-col sm:flex-row gap-2 sm:gap-4">
+            <li><a href="/" className="text-white px-4 py-2 rounded transition-colors hover:bg-white/20 hover:text-white font-medium">Home</a></li>
+            <li><a href="/about" className="text-white px-4 py-2 rounded transition-colors hover:bg-white/20 hover:text-white font-medium">About</a></li>
+            <li><a href="/services" className="text-white px-4 py-2 rounded transition-colors hover:bg-white/20 hover:text-white font-medium">Services</a></li>
+            <li><a href="/events" className="text-white px-4 py-2 rounded transition-colors hover:bg-white/20 hover:text-white font-medium">Events</a></li>
+            <li><a href="/contact" className="text-white px-4 py-2 rounded transition-colors hover:bg-white/20 hover:text-white font-medium">Contact</a></li>
+          </ul>
+        </nav>
         {children}
       </body>
     </html>
