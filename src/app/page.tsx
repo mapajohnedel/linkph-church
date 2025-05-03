@@ -13,7 +13,7 @@ export default function Home() {
       />
       <h1 className="text-4xl sm:text-5xl font-extrabold text-green-600 drop-shadow">Link Church <span className="block text-2xl font-light tracking-widest mt-2 text-green-400">PHILIPPINES</span></h1>
       <h2 className="text-2xl sm:text-3xl font-semibold text-green-700 mt-2">God First, Disciples Made</h2>
-      <p className="italic text-lg sm:text-xl text-gray-700 max-w-xl mx-auto mt-2">"Connecting what matters to God."</p>
+      <p className="italic text-lg sm:text-xl text-gray-700 max-w-xl mx-auto mt-2">&ldquo;Connecting what matters to God.&rdquo;</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-12 bg-green-50 rounded-xl p-6 shadow-lg w-full max-w-2xl">
         <div className="flex items-center gap-2 text-green-800">
           <span className="bg-green-100 p-2 rounded-full"><svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth='1.5' stroke='currentColor' className='w-6 h-6'><path strokeLinecap='round' strokeLinejoin='round' d='M21.75 6.75v10.5A2.25 2.25 0 0 1 19.5 19.5h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-.659 1.591l-7.591 7.591a2.25 2.25 0 0 1-3.182 0L2.909 8.584A2.25 2.25 0 0 1 2.25 6.993V6.75' /></svg></span>

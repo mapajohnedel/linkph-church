@@ -5,7 +5,7 @@ export default function About() {
     <main className="flex flex-col items-center justify-center min-h-[70vh] bg-white py-12 px-4">
       <div className="max-w-3xl w-full">
         <h1 className="text-4xl font-extrabold text-green-600 mb-2 text-center">Welcome to Link Church PH</h1>
-        <p className="text-xl text-green-700 font-semibold text-center mb-8">"Connecting what Matters to God"</p>
+        <p className="text-xl text-green-700 font-semibold text-center mb-8">&ldquo;Connecting what Matters to God&rdquo;</p>
 
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-green-700 mb-2">What are we?</h2>
@@ -31,7 +31,7 @@ export default function About() {
           <p className="mb-2"><b>God First, Disciples Made</b></p>
           <h2 className="text-2xl font-bold text-green-700 mb-2">Our Mission</h2>
           <p>
-            At Link Church, our mission is to obey the Great Commission by pursuing the call to connect the lost through the gospel. We are dedicated to reach the 1% of the country's population by the help of God through the link.
+            At Link Church, our mission is to obey the Great Commission by pursuing the call to connect the lost through the gospel. We are dedicated to reach the 1% of the country&apos;s population by the help of God through the link.
           </p>
           <ul className="list-disc list-inside text-gray-700 mt-4 space-y-1">
             <li><b>L</b> - Life Changing Services</li>
