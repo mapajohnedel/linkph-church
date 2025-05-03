@@ -14,7 +14,7 @@ export default function About() {
             <li><b>Bible Believing Church:</b> Devoted to rightly divide the Word of Truth.</li>
             <li><b>Generational:</b> Celebrating diversity of Spiritual Gifts through Link Groups of Men and Women.</li>
             <li><b>Intentional Church:</b> In winning and discipling the people of God.</li>
-            <li><b>Innovative:</b> We don't fear change.</li>
+            <li><b>Innovative:</b> We don&apos;t fear change.</li>
           </ul>
         </section>
 
@@ -22,7 +22,7 @@ export default function About() {
           <h2 className="text-2xl font-bold text-green-700 mb-2">Our Church Verse</h2>
           <blockquote className="italic border-l-4 border-green-400 pl-4 text-gray-700 mb-2">
             1 Timothy 2:5-6 ESV<br />
-            "For there is one God, and there is one mediator between God and men, the man Christ Jesus, who gave himself as a ransom for all, which is the testimony given at the proper time."
+            &ldquo;For there is one God, and there is one mediator between God and men, the man Christ Jesus, who gave himself as a ransom for all, which is the testimony given at the proper time.&rdquo;
           </blockquote>
         </section>
 
@@ -111,7 +111,7 @@ export default function About() {
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             <li><b>Volunteer Opportunities:</b> Share your talents and time in various ministries and outreach programs.</li>
             <li>
-              <b>Join a Group:</b> Find a small group that fits your interests and schedule. {" "}
+              <b>Join a Group:</b> Find a small group that fits your interests and schedule.{" "}
               <a href="https://forms.gle/HHZcr9Z6kcv1KnRm7" className="text-green-600 underline" target="_blank" rel="noopener noreferrer">Click here to join a Link group</a>
             </li>
             <li><b>Attend Events:</b> Participate in our community events to meet new people and deepen your connections.</li>
